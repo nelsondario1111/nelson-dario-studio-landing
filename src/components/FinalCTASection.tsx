@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import ScrollReveal from "./ScrollReveal";
 
 const FinalCTASection = () => (
   <section id="contact" className="section-padding relative overflow-hidden">
-    {/* Subtle background accent */}
     <div className="absolute inset-0 bg-gradient-to-b from-background via-gold/[0.03] to-background" />
 
     <div className="container mx-auto px-6 relative z-10">
-      <div className="max-w-2xl mx-auto text-center">
+      <ScrollReveal className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-semibold text-foreground mb-6">
           Let's Build Something That Actually Helps Your Business Grow
         </h2>
@@ -21,7 +21,7 @@ const FinalCTASection = () => (
             <ArrowRight className="ml-2" size={18} />
           </a>
         </Button>
-      </div>
+      </ScrollReveal>
     </div>
   </section>
 );

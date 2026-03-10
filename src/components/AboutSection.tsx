@@ -1,7 +1,9 @@
+import ScrollReveal from "./ScrollReveal";
+
 const AboutSection = () => (
   <section id="about" className="section-padding section-alt">
     <div className="container mx-auto px-6">
-      <div className="max-w-3xl mx-auto text-center">
+      <ScrollReveal className="max-w-3xl mx-auto text-center">
         <p className="text-sm font-medium text-gold uppercase tracking-wider mb-3">About</p>
         <h2 className="text-3xl md:text-4xl font-display font-semibold text-foreground mb-8">
           A Boutique Digital Partner for Service Businesses
@@ -20,7 +22,7 @@ const AboutSection = () => (
             No fluff. No jargon. Just clear thinking, clean design, and technology that works.
           </p>
         </div>
-      </div>
+      </ScrollReveal>
     </div>
   </section>
 );
