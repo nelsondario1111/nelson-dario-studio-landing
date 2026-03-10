@@ -60,6 +60,7 @@ export default {
           DEFAULT: "hsl(var(--charcoal))",
           light: "hsl(var(--charcoal-light))",
         },
+        graphite: "hsl(var(--graphite))",
         "warm-white": "hsl(var(--warm-white))",
         "warm-gray": "hsl(var(--warm-gray))",
         sidebar: {
